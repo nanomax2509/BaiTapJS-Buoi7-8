@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <body class="bg-info">
+        <!-- Bài 1: Quản lí sinh viên -->
+        <div class="container d-flex justify-content-center">
+          <div class="card my-5" style="width: 30rem;">
+            <div class="card-header text-white bg-dark text-center">
+              Bài Tập JS Buổi 7-8
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <input type="number" class="form-control" id="inputN" placeholder="Nhập số n">
+                </div>
+                <button type="button" class="btn btn-danger"  id="btnAdd">Thêm số</button>
+                <p class="mt-3 bg-success py-3 text-light" id="txtResult"></p>
+                <!-- tính tổng số dương -->
+                <form >
+                    <p>1. Tổng số dương</p>
+                    <button type="button" class="btn btn-danger"  id="btnTong">Tính Tổng</button>
+                    <p class="mt-3 bg-success py-3 text-light" id="txtTong"></p>
+                </form>
+                <!-- đếm số dương  -->
+                <form >
+                    <p>2. Đếm số dương</p>
+                    <button type="button" class="btn btn-danger"  id="btnDem">Đếm số </button>
+                    <p class="mt-3 bg-success py-3 text-light" id="txtDem"></p>
+                </form>
+                <!-- Tìm số nhỏ nhất -->
+                <form >
+                    <p>3. Tìm số nhỏ nhất</p>
+                    <button type="button" class="btn btn-danger"  id="btnNhoNhat">Tìm số nhỏ nhất</button>
+                    <p class="mt-3 bg-success py-3 text-light" id="txtNhoNhat"></p>
+                </form>
+                <!-- Tìm số dương nhỏ nhất -->
+                <form >
+                    <p>4. Tìm số dương nhỏ nhất</p>
+                    <button type="button" class="btn btn-danger"  id="btnDuongNhoNhat">Tìm số dương nhỏ nhất</button>
+                    <p class="mt-3 bg-success py-3 text-light" id="txtDuongNhoNhat"></p>
+                </form>
+
+                <!-- Tìm số chẵn cuối cùng -->
+                <form >
+                    <p>5. Tìm số chẵn cuối cùng</p>
+                    <button type="button" class="btn btn-danger"  id="btnSoChanCuoi">Tìm số chẵn cuối cùng</button>
+                    <p class="mt-3 bg-success py-3 text-light" id="txtSoChanCuoi"></p>
+                </form>
+                <!-- Đổi chỗ -->
+                <form >
+                    <p>6. Đổi chỗ</p>
+                    <input type="number" class="form-control" id="inputSo1" placeholder="Nhập số vị trí 1">
+                    <input type="number" class="form-control" id="inputSo2" placeholder="Nhập số vị trí 2">
+                    <button type="button" class="btn btn-danger"  id="btnDoi">Đổi chỗ</button>
+                    <p class="mt-3 bg-success py-3 text-light" id="txtDoi"></p>
+                </form>
+                <!-- Sắp xếp tăng dần -->
+                <form >
+                    <p>7. Sắp xếp tăng dần</p>
+                    <button type="button" class="btn btn-danger"  id="btnTang">Sắp xếp</button>
+                    <p class="mt-3 bg-success py-3 text-light" id="txtTang"></p>
+                </form>
+                <!-- Tìm số nguyên tố đầu tiên -->
+                <form >
+                  <p>8. Tìm số nguyên tố đầu tiên</p>
+                  <button type="button" class="btn btn-danger"  id="btnSNT">Tìm số nguyên tố</button>
+                  <p class="mt-3 bg-success py-3 text-light" id="txtSNT"></p>
+              </form>
+              <!-- Đếm số nguyên -->
+              <form >
+                <p>9. Đếm số nguyên</p>
+                <input type="number" class="form-control" id="inputSoNguyen" placeholder="Nhập số n">
+                <button type="button" class="btn btn-danger mt-3 d-block"  id="btnThemSN">Thêm số</button>
+                <p class="mt-3 bg-success py-3 text-light" id="txtArraySN"></p>
+                <button type="button" class="btn btn-danger mt-3 d-block"  id="btnSoNguyen">Đếm số</button>
+                <p class="mt-3 bg-success py-3 text-light" id="txtSoNguyen"></p>
+            </form>
+              </form>
+
+            </div>
+          </div>
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
